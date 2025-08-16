@@ -6,7 +6,7 @@ Today, you will learn about the ls command on Ubuntu. This command helps you see
 - When you type ls in the terminal and press Enter, Ubuntu will show you the files and folders in the current directory.
 Example:\
 ```
-# change to you home directory, ~ is the alias for /Users/toan (MacOS) or /home/toan (Ubuntu)
+# change to you home directory, ~ is the alias for your home directory (/home/toan)
 cd ~
 # list files and folders in the current working directory
 ls
@@ -26,9 +26,11 @@ ls -l
 This shows a long list with details (permissions, size, date, etc.).
 - Show hidden files: ls -a
 ```
+cd ~
 ls -a
 ```
-Now you will see files like .bashrc that are usually hidden.
+Now you will see files like .bashrc that are usually hidden.\
+On Ubuntu, files starting with '.' are hidden files.
 - Combine options: ls -la\
 You can put options together:
 ```
@@ -50,7 +52,7 @@ You can also list another path:
 ```
 # list files and folders in the system configuration directory
 ls /etc
-# list files and folders in /Users/toan/Documents
+# list files and folders in /home/toan/Documents
 ls ~/Documents
 ```
 ## 4. Exercises
@@ -62,8 +64,8 @@ ls > /tmp/ls-result.txt
 
 1. Send me through email the list of files and folders in your home directory\
 Tip: use cat to show the content of a file, copy it by using mouse, and then pass it to email
-2. Tell me how big the .zshrc file is in bytes
-3. Tell me how big the .zshrc file is in human readable format
+2. Tell me how big the .bashrc file is in bytes
+3. Tell me how big the .bashrc file is in human readable format
 4. Tell me when the /etc/hostname file was last modified
 5. Send me the content of /etc/hostname. Can you guest what it is?
 6. Tell me what the command below does:
