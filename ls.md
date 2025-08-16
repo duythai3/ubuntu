@@ -4,7 +4,7 @@ Today, you will learn about the ls command on Ubuntu. This command helps you see
 ## What is ls?
 - ls means list.
 - When you type ls in the terminal and press Enter, Ubuntu will show you the files and folders in the current directory.
-Example:\
+### Example:
 ```
 # change to you home directory, ~ is the alias for your home directory (/home/toan)
 cd ~
