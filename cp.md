@@ -61,4 +61,4 @@ cd learn/tmp
 echo "file1" > file1.txt
 echo "file2" > file2.txt
 ```
-- [] Copy a file in current directory
+- [ ] Copy a file in current directory
