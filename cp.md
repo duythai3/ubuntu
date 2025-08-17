@@ -47,7 +47,7 @@ cp -v file1.txt /home/toan/Desktop/
 cp -u notes.txt backup/
 ```
 ### Practice Exercises
-- [x] Run commands below to create files and folders for practcing:
+- [ ] Run commands below to create files and folders for practicing:
 ```
 # change to you home directory
 cd ~
@@ -61,4 +61,4 @@ cd learn/tmp
 echo "file1" > file1.txt
 echo "file2" > file2.txt
 ```
-- [ ] Copy a file in current directory
+- [ ] Copy `file1.txt` to `file_copy.txt`
