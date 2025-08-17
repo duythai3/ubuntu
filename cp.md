@@ -11,3 +11,8 @@ cp [options] source destination
 - **destination** = where you want to put the copy
 
 - **options** = extra instructions (like "copy folders" or "ask before overwriting")
+### 3. Simple Examples
+#### a) Copy a file in the same folder
+```
+cp file1.txt file1_copy.txt
+```
