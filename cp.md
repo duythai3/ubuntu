@@ -22,3 +22,27 @@ This creates a copy named `file1_copy.txt`.
 cp file1.txt /home/toan/Documents/
 ```
 This copies `file1.txt` into the`Documents` folder.
+#### c) Copy multiple files at once
+```
+cp file1.txt file2.txt /home/toan/Desktop/
+```
+Copies both files to the Desktop.
+### 4. Copying Folders
+By default, `cp` only works on files.
+To copy a folder (with everything inside), add the `-r` (recursive) option:
+```
+cp -r my_folder/ /home/toan/Documents/
+```
+### 5. Useful Options
+- `-i` → Interactive (asks before overwriting a file)
+```
+cp -i file1.txt file2.txt
+```
+- `-v` → Verbose (shows what’s happening)
+```
+cp -v file1.txt /home/toan/Desktop/
+```
+- `-u` → Update (only copies if the source is newer)
+```
+cp -u notes.txt backup/
+```
