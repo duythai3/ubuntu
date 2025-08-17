@@ -16,3 +16,9 @@ cp [options] source destination
 ```
 cp file1.txt file1_copy.txt
 ```
+This creates a copy named `file1_copy.txt`.
+#### b) Copy a file into another folder
+```
+cp file1.txt /home/toan/Documents/
+```
+This copies `file1.txt` into the`Documents` folder.
