@@ -79,5 +79,5 @@ cp -v file1.txt file1_copy_2.txt
 ```
 cp -vu file1.txt file1_copy_2.txt
 ```
-> *Attach the `~/learn/tmp/etc_file.txt` file to an email and send it to me*
+> *Attach the `~/learn/tmp/etc_file.txt` file to an email and send it to me*\
 > *I have also installed `thunderbird` on the math computer. `thunderbird` can help you attach a file to an email easier than web mail*
