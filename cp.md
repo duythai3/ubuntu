@@ -47,11 +47,11 @@ cp -v file1.txt /home/toan/Desktop/
 cp -u notes.txt backup/
 ```
 ### Practice Exercises
-- [ ] Run commands below to create files and folders for practicing:
+- [ ] Run commands below to create files and directories for practicing:
 ```
-# change to you home directory
+# change to your home directory
 cd ~
-# create a directory to store files and folders for learning Linux/Ubuntu
+# create a directory to store files and directories for learning Linux/Ubuntu
 mkdir learn
 # create a directory to contain temporary files & folders
 mkdir learn/tmp
@@ -62,3 +62,22 @@ echo "file1" > file1.txt
 echo "file2" > file2.txt
 ```
 - [ ] Copy `file1.txt` to `file_copy.txt`
+- [ ] Copy `file1.txt` to `/tmp`
+- [ ] Copy `file1.txt` and `file2.txt` to `/tmp` by using one `cp` command
+- [ ] List all files and folders in `/etc` and save the result to `/tmp/etc_file.txt`
+- [ ] Copy `/tmp/etc_file.txt` to `~/learn/tmp` folder
+- [ ] Copy the `~/learn/tmp` directory to the `/tmp` directory
+- [ ] Run the command below and tell me what you see, and why you see the message:
+```
+cp -i file1.txt file1_copy.txt
+```
+- [ ] Run the command below and tell me what you see, and why you see the message:
+```
+cp -v file1.txt file1_copy_2.txt
+```
+- [ ] Run the command below and tell me what you see, and why you see the message:
+```
+cp -vu file1.txt file1_copy_2.txt
+```
+- [ ] Attach the `~/learn/tmp/etc_file.txt` to an email and send it to me
+> I have also installed `thunderbird` on the math computer
