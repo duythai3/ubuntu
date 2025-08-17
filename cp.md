@@ -47,7 +47,7 @@ cp -v file1.txt /home/toan/Desktop/
 cp -u notes.txt backup/
 ```
 ### Practice Exercises
-- [ ] Run commands below to create files and directories for practicing:
+- Run commands below to create files and directories for practicing:
 ```
 # change to your home directory
 cd ~
@@ -61,23 +61,23 @@ cd learn/tmp
 echo "file1" > file1.txt
 echo "file2" > file2.txt
 ```
-- [ ] Copy `file1.txt` to `file_copy.txt`
-- [ ] Copy `file1.txt` to `/tmp`
-- [ ] Copy `file1.txt` and `file2.txt` to `/tmp` by using one `cp` command
-- [ ] List all files and folders in `/etc` and save the result to `/tmp/etc_file.txt`
-- [ ] Copy `/tmp/etc_file.txt` to `~/learn/tmp` folder
-- [ ] Copy the `~/learn/tmp` directory to the `/tmp` directory
-- [ ] Run the command below and tell me what you see, and why you see the message:
+1. Copy `file1.txt` to `file_copy.txt`
+2. Copy `file1.txt` to `/tmp`
+3. Copy `file1.txt` and `file2.txt` to `/tmp` by using one `cp` command
+4. List all files and folders in `/etc` and save the result to `/tmp/etc_file.txt`
+5. Copy `/tmp/etc_file.txt` to `~/learn/tmp` folder
+6. Copy the `~/learn/tmp` directory to the `/tmp` directory
+7. Run the command below and tell me what you see, and why you see the message:
 ```
 cp -i file1.txt file1_copy.txt
 ```
-- [ ] Run the command below and tell me what you see, and why you see the message:
+8. Run the command below and tell me what you see, and why you see the message:
 ```
 cp -v file1.txt file1_copy_2.txt
 ```
-- [ ] Run the command below and tell me what you see, and why you see the message:
+9. Run the command below and tell me what you see, and why you see the message:
 ```
 cp -vu file1.txt file1_copy_2.txt
 ```
-- [ ] Attach the `~/learn/tmp/etc_file.txt` to an email and send it to me
+> *Attach the `~/learn/tmp/etc_file.txt` to an email and send it to me*
 > *I have also installed `thunderbird` on the math computer. `thunderbird` can help you attach a file to an email easier than web web mail*
