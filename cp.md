@@ -46,3 +46,19 @@ cp -v file1.txt /home/toan/Desktop/
 ```
 cp -u notes.txt backup/
 ```
+### Practice Exercises
+- [x] Run commands below to create files and folders for practcing:
+```
+# change to you home directory
+cd ~
+# create a directory to store files and folders for learning Linux/Ubuntu
+mkdir learn
+# create a directory to contain temporary files & folders
+mkdir learn/tmp
+# change to ~/learn/tmp directory
+cd learn/tmp
+# create files for practice `cp` command
+echo "file1" > file1.txt
+echo "file2" > file2.txt
+```
+- [] Copy a file in current directory
