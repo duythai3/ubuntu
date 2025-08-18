@@ -41,7 +41,7 @@ Bash can also suggest commands. Type:
 ls --
 ```
 Then press **Tab** twice.<br>
-You will see a list of options (--all, --help, etc.). These are the `ls` commamnd's long form options.<br>
+You will see a list of options (--all, --help, etc.). These are the `ls` command's long form options.<br>
 >In the previous lesson, you have learned `-a`, `-h` options.
 >- `--all` is the long-form of `-a`.
 >- `--human-readable` is the long-form of `-h`.
