@@ -55,4 +55,4 @@ This helps you discover what a command can do.
 6. Type `ls /etc`, then press **Tab** twice. What do you see on the command line? And why does Bash show that message?
 7. Tell me the list of commands that begin with `cat` on Ubuntu.
 8. Tell me the list of files that begin with `host` in `/etc` directory.
-9. Tell me what the command `mv` does (\*).
+9. Tell me what the command `mv` does.(\*)
