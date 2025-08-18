@@ -8,7 +8,7 @@ Open the terminal and type:
 ```
 ech
 ```
-Now press **Tab**<br>
+Now press **Tab**.<br>
 You should see it complete to:
 ```
 echo
