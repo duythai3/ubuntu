@@ -42,9 +42,11 @@ ls --
 ```
 Then press **Tab** twice.<br>
 You will see a list of options (--all, --help, etc.). These are the `ls` command's long form options.<br>
+
 >In the previous lesson, you have learned `-a`, `-h` options.
->- `--all` is the long-form of `-a`.
->- `--human-readable` is the long-form of `-h`.
+>- `--all` is the long form of `-a`.
+>- `--human-readable` is the long form of `-h`.
+
 This helps you discover what a command can do.
 ### 5. Practice Excercises
 1. Type `ls --h`, press **Tab** twice. What do you see?
