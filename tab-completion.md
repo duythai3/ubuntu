@@ -52,8 +52,8 @@ This helps you discover what a command can do.
 1. Type `ls --h`, press **Tab** twice. What do you see?
 2. Type `ls --help`, press **Enter**. Tell me what the result is.
 3. Tell me what is the long form for `-l` of the `ls` command.
-4. Type `ls /e`, then press **Tab**. Tell me what happens after you press **Tab**.
-5. Type `ls /etc`, then press **Tab**. Tell me what happened, and why.
+4. Type `ls /e`, then press **Tab**. Tell me what happens after you pressed **Tab**.
+5. Type `ls /etc`, then press **Tab**. Tell me what happens, and why.
 6. Type `ls /etc`, then press **Tab** twice. What do you see on the command line? And why does Bash show that message?
 7. Tell me the list of commands that begin with `cat` on Ubuntu.
 8. Tell me the list of files that begin with `host` in the `/etc` directory.
