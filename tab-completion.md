@@ -49,4 +49,4 @@ This helps you discover what a command can do.
 ### 5. Practice Excercises
 1. Type `ls --h`, press **Tab** twice. What do you see?
 2. Type `ls --help`, press **Enter**. Tell me what the result is.
-3. Tellp me what is the long form of `-l` of the `ls` command.
+3. Tell me what is the long form for `-l` of the `ls` command.
