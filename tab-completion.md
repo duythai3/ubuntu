@@ -1,6 +1,6 @@
 # Tab Completion on Ubuntu
 ### 1. What is Tab Completion?
-When you type a command in a terminal, sometimes pressing **Tab** will fill in the rest of the word for you.<br>
+When you type a command in the terminal, sometimes pressing **Tab** will fill in the rest of the word for you.<br>
 This is called **tab completion**.<br>
 It saves time, avoid typos, and help you discover commands or files without remembering the full names.
 ### 2. Trying Basic Completion
@@ -54,5 +54,5 @@ This helps you discover what a command can do.
 5. Type `ls /etc`, then press **Tab**. Tell me what happened, and why.
 6. Type `ls /etc`, then press **Tab** twice. What do you see on the command line? And why does Bash show that message?
 7. Tell me the list of commands that begin with `cat` on Ubuntu.
-8. Tell me the list of files that begin with `host` in `/etc` directory.
+8. Tell me the list of files that begin with `host` in the `/etc` directory.
 9. Tell me what the command `mv` does.(\*)
