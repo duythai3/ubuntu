@@ -85,9 +85,11 @@ nano t1.txt
 This line will be duplicated
 ```
 - Copy the word `duplicated` to a new line
->Select the word `duplicated`, 
->press `M-6` to copy selected text to `nano`'s clipboard, 
+
+>Select the word `duplicated`,<br>
+>press `M-6` to copy selected text to `nano`'s clipboard,<br>
 >and press `^U`
+
 - Create a new line with text `This line will be remove because it is a duplicated line` by using `M-6`, `^U` to copy the first line and edit it.
 - Try `M-U` and `M-E`
 - Use `M-U` to revert the file to empty and exit `nano`
