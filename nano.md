@@ -2,7 +2,7 @@
 ### 1. What is Nano?
 - Nano is a program that lets you write and edit text files inside the terminal.
 - You can use it to write notes, code, or even edit system settings.
-- At the bottom of the screen, nano shows you helpful shortcuts.
+- At the bottom of the screen, nano shows you helpful shortcuts.<br>
 Example: ^O means **Ctrl + O** (hold **Ctrl**, then press **O**).
 ### 2. Opening Nano
 Type this in the terminal:
@@ -23,9 +23,9 @@ I will use nano to take note while I am learning Ubuntu.
 ```
 ### 3. Saving Your Work
 To save in nano:
-- Press ***Ctrl + O** (that’s “Write Out”).
+- Press **Ctrl + O** (that’s “Write Out”).
 - Nano asks for a file name. Type `t1.txt` and press **Enter**.
-- To quit nano, press Ctrl + X.
+- To quit nano, press **Ctrl + X**.
 Now you have saved your first text file!
 ### 4. Opening a File Again
 To open the file you saved:
@@ -67,13 +67,13 @@ Type text below:
 - Go to start of line: Ctrl + A
 - Go to end of line: Ctrl + E
 ```
-And then save the file and exit `nano`.<br>
+Then save the file and exit `nano`.<br>
 Open the `nano.txt` file and append text below:
 ```
 - ^S means Ctrl + S
 - M-6 means Alt + 6
 ```
-And then save and exit `nano`.
+Then save and exit `nano`.<br>
 3. Practice `nano`'s shutcuts.
 - Create a temp file for practicing `nano`:
 ```
@@ -86,6 +86,6 @@ This line will be duplicated
 ```
 - Copy the word `duplicated` to a new line:
 >Select the word `duplicated`, press `M-6` to copy selected text to `nano`'s clipboard, and press `^U`
-- Create a new line `This line will be remove because it is a duplicated line` by using `M-6`, `^U` to to copy the first line and edit it.
+- Create a new line with text `This line will be remove because it is a duplicated line` by using `M-6`, `^U` to copy the first line and edit it.
 - Try `M-U` and `M-E`
 - Use `M-U` to revert the file to empty and exit `nano`
