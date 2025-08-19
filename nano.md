@@ -36,10 +36,10 @@ Now you can see your text again and add more lines.
 ### 5. Important Shortcuts
 - Save file: `Ctrl + O` or `Ctrl + S`
 - Exit nano: `Ctrl + X`
-- Cut (delete) a line: `Ctrl + K`
-- Paste a line: `Ctrl + U`
+- Cut a line or selected text into nano's clipboard: `Ctrl + K`
+- Copy current line or selected text into clipboard: `Alt + 6`
+- Paste text from the clipboard to current position: `Ctrl + U`
 - Search for text: `Ctrl + W`
-- Copy current line or selected text: `Alt + 6`
 - Undo: `Alt + U`
 - Redo: `Alt + E`
 ### 6. Practice Exercises
@@ -86,10 +86,11 @@ This line will be duplicated
 ```
 - Copy the word `duplicated` to a new line
 
->Select the word `duplicated`,<br>
->press `M-6` to copy selected text to `nano`'s clipboard,<br>
->and press `^U`
+>Select the word `duplicated` by `Shift + Left Arrow/Right Arrow`,<br>
+>press `M-6` to copy selected text to nano clipboard,<br>
+>and press `^U` to paste the text from clipboard to the caret position.
 
-- Create a new line with text `This line will be remove because it is a duplicated line` by using `M-6`, `^U` to copy the first line and edit it.
+- Duplicate the word "line"
+- Create a new line with text "This line will be remove because it is a duplicated line" by using `M-6`, `^U` to copy the first line and edit it.
 - Try `M-U` and `M-E`
 - Use `M-U` to revert the file to empty and exit `nano`
