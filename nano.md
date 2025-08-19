@@ -43,7 +43,7 @@ Now you can see your text again and add more lines.
 - Undo: `Alt + U`
 - Redo: `Alt + E`
 ### 6. Practice Exercises
-1. Create a directory to keep your notes.
+#### 1. Create a directory to keep your notes.
 ```
 # create directories
 mkdir ~/work
@@ -52,7 +52,7 @@ mkdir ~/work/note/ubuntu
 # change to the directory used to keep notes about ubuntu
 cd ~/work/note/ubuntu
 ```
-2. Take notes about `nano` editor.
+#### 2. Take notes about `nano` editor.<br>
 Use `nano` to create file `nano.txt` in your ubuntu note directory
 ```
 nano nano.txt
@@ -74,7 +74,7 @@ Open the `nano.txt` file and append text below:
 - M-6 means Alt + 6
 ```
 Then save and exit `nano`.<br>
-3. Practice `nano`'s shutcuts.
+#### 3. Practice `nano`'s shutcuts.
 - Create a temp file for practicing `nano`:
 ```
 cd ~/learn/tmp
