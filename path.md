@@ -18,7 +18,7 @@ Example structure:
 ```
 ### Absolute vs. Relative Paths
 **Absolute Path**<br>
-- Always starts with / (root).
+- Always starts with `/` (root).
 - Shows the full address of the file or folder.
 - Example:
 
@@ -27,10 +27,10 @@ Example structure:
 
 ```
 **Relative Path**<br>
-- Does not start with /.
+- Does not start with `/`.
 - Describes a location relative to your current folder.
 - Example:<br>
-If you're currently in /home/toan, then:
+If you're currently in `/home/toan`, then:
 ```
 work/note/todo.txt
 ```
@@ -39,9 +39,9 @@ is the **relative path** to the file.<br>
 ### Special Symbols in Paths
 | Symbol | Meaning | Example |
 |--------|---------|---------|
-|.|Current directory|./script.sh runs a script in the current folder|
-|..|Parent directory|../notes.txt goes up one folder|
-|~|Your home directory|cd ~/Pictures|
+|`.`|Current directory|`./script.sh` runs a script in the current folder|
+|`..`|Parent directory|`../notes.txt` goes up one folder|
+|`~`|Your home directory|`cd ~/Pictures`|
 ### Exercises
 1. If you are in `/etc` directory, what is the command that you use to open the `nano.txt` file by using the Nano editor.<br>
 2. If you are in `~/work/note`, what is the command used to get the `size` and `last modified time` of `/etc/hostname`.<br>
