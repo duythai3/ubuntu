@@ -1,4 +1,4 @@
-# Using * with the ls Command in Ubuntu
+# Using `*` with the `ls` Command in Ubuntu
 ### What is `*` in Linux
 In Linux, the `*` character is called a wildcard.<br>
 It tells the shell:
