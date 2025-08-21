@@ -88,8 +88,8 @@ ls: cannot access 'z*': No such file or directory
 2. What is the command used to list files and directories ending with `.d` in the `/etc` directory?
 3. What is the command used to list files with exstension `.txt` in the `/etc` directory?
 4. If you are in `/etc`, what is the command you use to list files with `.conf` extension?
-5. If you are in you home directory, what is the command you use to list files that starts with `su` and ending with `.confg`?
+5. If you are in you home directory, what is the command you use to list files that starts with `su` and ending with `.confg` in `/etc`?
 6. Send me a file that list all files ending with `*.conf` in the `/etc` directory.
-7. What is the command that you used to copy all files ending with `*.txt` in the `~/work/note/ubuntu` to the `/tmp` directory?
+7. What is the command that you used to copy all files ending with `*.txt` from the `~/work/note/ubuntu` to the `/tmp` directory?
 8. If you are in `/etc`, what is the command used to list all hidden files in `/etc`?
 9. If you are in `/etc`, what is the command used to list all hidden files in your home directory?
