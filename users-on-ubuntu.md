@@ -273,4 +273,4 @@ From now on, save your answers in this directory, and just send me the filename 
 7. Remove **home folder** of `practice1` and `practice2` users.
 8. What is the **home folder** of the `root` user?
 9. Copy `/etc/passwd` to the `root` user's **home folder**.
-10. Take notes for this lesson into `~/work/note/user-on-ubuntu.txt`, and send me the file.
+10. Take notes for this lesson into `~/work/note/user-on-ubuntu.txt`.
