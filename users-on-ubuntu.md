@@ -173,3 +173,92 @@ On the command line:
 * `sudo` lets you run commands as root safely.
 * You can create, switch, and manage users from the terminal.
 
+# Exercises
+
+## Part A – Simple Questions
+
+1. What is the difference between the **root user** and a **regular user**?
+2. What does the `sudo` command do?
+3. Why do you think Ubuntu hides the root account by default?
+4. What does the `su` command do?
+5. Explain the syntax of the `su` command.
+
+---
+
+## Part B – Practice in the Terminal
+
+1. **Find your username**
+
+   ```bash
+   whoami
+   ```
+
+2. **Find your home folder**
+
+   ```bash
+   echo $HOME
+   ```
+
+3. **List all users on the system**
+
+   ```bash
+   cat /etc/passwd
+   ```
+
+   👉 Look at the first word on each line – that’s the username.
+
+4. **Create a new user named `practice1`**
+
+   ```bash
+   sudo adduser practice1
+   ```
+
+5. **Switch to that user**
+
+   ```bash
+   su - practice1
+   ```
+
+   Then type `whoami` to confirm.
+
+6. **Go back to your original user**
+
+   ```bash
+   exit
+   ```
+
+7. **Try a root-only folder**
+
+   ```bash
+   ls /root
+   ```
+
+   👉 Notice it says *Permission denied*.
+   Now try:
+
+   ```bash
+   sudo ls /root
+   ```
+
+---
+
+## Part C – Challenge Tasks
+
+1. Create another user called `practice2`.
+2. Switch to `practice2` and create a file in their home folder:
+
+   ```bash
+   touch t1.txt
+   ```
+3. Switch back to your original account.
+   Try to open that file from your home folder. Can you? Why or why not?
+4. When you are in your original account, copy `/etc/passwd` to `/home/practice2/`.
+5. When you are in `practice2` account, copy `~/passwd` to `/home/toan/work/tmp`.
+6. Remove the test users when done:
+
+   ```bash
+   sudo deluser practice1
+   sudo deluser practice2
+   ```
+7. Remove *home folder* of `practice1` and `practice2` users.
+8. Take notes for this lesson into `~/work/note/user-on-ubuntu.txt`, and send me the file.
