@@ -1,4 +1,4 @@
-# Lesson: Users on Ubuntu
+# Users on Ubuntu
 
 ## 1. What is a User?
 
@@ -175,6 +175,16 @@ On the command line:
 
 # Exercises
 
+Create a directory to store your answers:
+
+```
+mkdir ~/work/learn
+mkdir ~/work/learn/answer
+```
+
+From now on, save your answers in this directory, and just send me the filename through email.
+
+
 ## Part A – Simple Questions
 
 1. What is the difference between the **root user** and a **regular user**?
@@ -260,5 +270,7 @@ On the command line:
    sudo deluser practice1
    sudo deluser practice2
    ```
-7. Remove *home folder* of `practice1` and `practice2` users.
-8. Take notes for this lesson into `~/work/note/user-on-ubuntu.txt`, and send me the file.
+7. Remove **home folder** of `practice1` and `practice2` users.
+8. What is the **home folder** of the `root` user?
+9. Copy `/etc/passwd` to the `root` user's **home folder**.
+10. Take notes for this lesson into `~/work/note/user-on-ubuntu.txt`, and send me the file.
