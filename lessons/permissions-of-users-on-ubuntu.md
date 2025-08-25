@@ -17,7 +17,7 @@
 
 Thư mục `ubuntu` này là một repository trên server `github.com`.
 
-Trước khi con làm bài con chạy lệnh sau đây để lấy về những file ba thêm vào repo này:
+Trước khi con làm bài thì con phải chạy lệnh sau đây để lấy về những file ba thêm vào repo này:
 
 ```
 cd ~/work/ubuntu
@@ -25,7 +25,7 @@ cd ~/work/ubuntu
 
 ```
 
-Sau khi con làm bài xong thì con phải commit bài làm của con lên repository `ubuntu` trên `github.com` để ba có thể thấy được:
+Sau khi con làm bài xong thì con phải commit bài đề ba có thể xem được từ `github.com`:
 
 ```
 cd ~/work/ubuntu
