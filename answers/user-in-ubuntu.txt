@@ -1,0 +1,38 @@
+Users-on-Ubuntu Lesson Answers
+
+Part A - Simple Questions
+
+1. What is the difference between the root user and a regular user?
+
+a: A root user is the most powerful account, it can change the whole system and is usually hidden.
+A regular user are normal accounts for everyday use, they can create files, change their own
+settings, and use programs. However, regular users need permission to do system changes.
+
+2. What does the sudo command do?
+
+a: The sudo command allows regular users to temporarily act as the superuser.
+
+3. Why do you think Ubuntu hides the root account by default?
+
+a: Ubuntu hides the root account by default for safety reasons.
+
+4. What does the su command do?
+
+a: The su command lets you switch between accounts.
+
+5. Explain the syntax of the su command.
+
+a: su [-] [user]
+
+Part C - Challenge Tasks
+
+3. Switch back to your original account. Try to open that file from your home folder. 
+Can you? Why or why not?
+
+a: I can't access the t1.txt file because it is on a different user. However, I can do 
+'sudo /home/practice2/t1.txt' to access it.
+
+8. What is the home folder of the root user?
+
+a: The home folder of the root user is /root.
+

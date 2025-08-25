@@ -1,0 +1,9 @@
+- Save file: Ctrl + O
+- Exit nano: Ctrl + X
+- Cut (delete) a line: Ctrl + K
+- Paste a line: Ctrl + U
+- Search for text: Ctrl + W
+- Go to start of line: Ctrl + A
+- Go to end of line: Ctrl + E
+- ^S means Ctrl + S
+- M-6 means Alt + 6

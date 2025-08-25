@@ -1,0 +1,60 @@
+Users on Ubuntu Notes
+
+1. What is a User?
+
+	A user is like an account on Ubuntu
+	A user has a username, a home folder, and a set of permissions
+
+2. Why Do We Need Users?
+
+	Users allow a person to
+
+		Keep private files
+		Set their own wallpaper and settings
+		Avoid breaking each other's files
+	Regular users can't damage the system
+	Only the root can install or remove software
+
+3. Types of Users
+
+	Root User
+		
+		The most powerful account
+		Has total control over system
+		Hidden for safety
+	Regular Users
+
+		Normal accounts for everyday use
+		Can control their own account
+		Needs perms to change system
+
+	System Users
+		
+		Invisible accounts used for services
+		DO NOT LOG INTO THEM
+
+4. The Home Directory
+
+	~ or /home/username
+
+5. Switching Users
+
+	On Ubuntu Desktop
+
+		Switch users from the login screen
+		Click Menu to "Switch User"
+	On the command line
+		"su(switch user) [-] [username]"
+
+6. Sudo: Superuser for a Moment
+
+	sudo = "superuser do"
+	After sudo, it will ask for password then runs command as root
+
+7. Creating and Managing Users
+
+	Create new user: sudo adduser newusername
+	Delete a user: sudo deluser username 
+	See all users: cat /etc/passwd
+
+

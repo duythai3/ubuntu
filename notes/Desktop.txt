@@ -1,0 +1,49 @@
+Top Bar
+
+	Left Corner: Activities Button
+	Middle: Time and Date
+	Right Corner: User Menu
+
+The Dock
+
+	Shows pinned apps
+	Apps can be pinned and unpinned
+
+Activities Overview
+
+	Can be opened with 'Windows'
+	Has search bar and app grid plus workspaces
+
+File Management
+
+	Bookmarks can be used to access important folders easily
+	Right click to create folders, delete them, and more
+	Has a search bar to find files
+
+Settings
+
+	Open via seach bar or from dock
+	Can be used to change many things about the Desktop
+
+Managing Applications
+
+	Ubuntu Software app can be used to install and search for apps
+	
+Notifications & Calendar
+
+	Clicking Date and Time opens calendar plus notifications
+	Some apps can be used to send notifications directly
+
+Keyboard Shortcuts
+
+	Open New Tab: Ctrl + T
+	New Folder: Ctrl + Shift + N
+	Rename File: F2
+	Search Files: Ctrl + F
+	Show Hidden Files: Ctrl + H
+	Open Activities: Windows
+	Switch Windows: Alt + Tab
+	Close Window: Ctrl + Q
+	Take Screenshot: PrtScn/Shift + PrtScn
+	Lock Screen: Windows + L
+	Open Terminal Ctrl + Alt + T

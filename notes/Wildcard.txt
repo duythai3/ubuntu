@@ -1,0 +1,19 @@
+Matching with everything in the folder:
+
+	ls *
+
+Matching with everything in the folder starting with the letter b:
+
+	ls b*
+
+Matching with everything in the folder ending with .txt:
+
+	ls *.txt
+
+Matching with everything in the folder containing the word cat:
+
+	ls *cat*
+
+Matching with everything in the folder starting with the letter l and ending with .conf:
+
+	ls l*.conf 
