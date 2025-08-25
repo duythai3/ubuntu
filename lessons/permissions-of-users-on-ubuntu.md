@@ -10,10 +10,10 @@
 
 ```
 
->`~/work/ubuntu/lessons` chứa các bài học ba tạo ra.<br>
->`~/work/ubuntu/answers` chứa các bài làm của con.<br>
->`~/work/ubuntu/notes` chứa các ghi chú của con.<br>
->`~/work/ubuntu/tmp` chứa các file tạm con tạo ra khi thực hành.<br>
+- `~/work/ubuntu/lessons` chứa các bài học ba tạo ra.
+- `~/work/ubuntu/answers` chứa các bài làm của con.
+- `~/work/ubuntu/notes` chứa các ghi chú của con.
+- `~/work/ubuntu/tmp` chứa các file tạm con tạo ra khi thực hành.
 
 ---
 Got it 👍 Let’s create a **lesson for Toan (14 years old)** about **permissions of users on Ubuntu**.
