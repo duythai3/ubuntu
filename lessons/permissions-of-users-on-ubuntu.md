@@ -202,3 +202,21 @@ Permissions protect:
 ---
 
 
+# Exercies
+1. What permissions are `~/.bashrc`. Explain them in English.
+2. Run the command below and tell me what you can do on the directory `~/work/ubuntu`.
+
+```
+ls -ld ~/work/ubuntu
+```
+>Notice about the option `d`.
+
+
+3. What you can do with the file `~/.bashrc`?
+4. What I can do with the file `/home/toan/.bashrc`?
+5. What `root` user can do with the file `/etc/passwd`?
+6. What you can do with the file `/etc/passwd`?
+7. Copy `~/work/ubuntu/commit.sh` to `~/work/ubuntu/tmp` and allow me execute it.
+8. I need to view files in your `answers` and `notes` directories, can you help me with that?
+9. Prevent everybody from access your `.bashrc` file.
+10. What is the option `d` of the command `ls`?
