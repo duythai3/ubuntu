@@ -1,0 +1,15 @@
+Absolute Path
+
+    Always starts with / (root).
+    Shows the full address of the file or folder.
+
+Relative Path
+
+    Does not start with /.
+    Describes a location relative to your current folder.
+
+Symbols
+
+	. - Current Directory
+	.. - Parent Directory
+	~ My Home Directory
