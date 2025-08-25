@@ -28,12 +28,8 @@ Sau khi con `commit` xong thì gởi cho ba tên tập tin bài làm và tên t�
 Ba chỉ cần tên tập tin thôi vì bài làm thì trong thư mục `answers` còn ghi chú thì trong thư mục `notes`.
 
 ---
-Got it 👍 Let’s create a **lesson for Toan (14 years old)** about **permissions of users on Ubuntu**.
-The style will be **clear, simple, and teenager-friendly**, so he can read and study by himself.
 
----
-
-# 📘 Lesson: Understanding Permissions of Users on Ubuntu
+# Understanding Permissions of Users on Ubuntu
 
 ## 1. Why Do We Need Permissions?
 
@@ -80,29 +76,29 @@ So each file has permissions for **user, group, and others**.
 Open a terminal and type:
 
 ```bash
-ls -l
+ls -l ~/work/ubuntu/commit.sh
 ```
 
 You’ll see something like:
 
 ```
--rwxr-xr--  1 toan family  1234 Aug 25 09:00 script.sh
+-rwxrwxr-x 1 toan family 87 Aug 25 04:37 ~/work/ubuntu/commit.sh
 ```
 
-Let’s break it down:
+Look at the first 10 characters:
 
-* **-rwxr-xr--**
+* **-rwxrwxr-**
 
   * `-` → it’s a file (if it were a folder, it would be `d`)
-  * `rwx` → user has read, write, execute
-  * `r-x` → group has read, execute
-  * `r--` → others have read only
+  * `rwx` → user has read, write, and execute
+  * `rwx` → group has read, write, and execute
+  * `r-x` → others have read and execute
 
 So in plain English:
 
-* The owner (toan) can do everything.
-* The group (family) can read and run it, but not edit it.
-* Others can only read.
+* The owner (toan) can do everything on the file `commit.sh`.
+* The group (family) can do everything on the file `commit.sh`.
+* Others can read and execute the file `commit.sh`.
 
 ---
 
@@ -115,7 +111,7 @@ Examples:
 * Add execute permission for user:
 
   ```bash
-  chmod u+x script.sh
+  chmod u+x commit.sh
   ```
 * Remove write permission for others:
 
@@ -150,7 +146,7 @@ Add them together:
 So:
 
 ```bash
-chmod 755 script.sh
+chmod 755 file.sh
 ```
 
 Means:
@@ -205,5 +201,4 @@ Permissions protect:
 
 ---
 
-👉 Do you want me to also create **exercises** for Toan (like practice tasks after reading this lesson) so he can test what he learned?
 
