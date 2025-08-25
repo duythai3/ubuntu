@@ -15,6 +15,16 @@
 - `~/work/ubuntu/notes` chứa các ghi chú của con.
 - `~/work/ubuntu/tmp` chứa các file tạm con tạo ra khi thực hành.
 
+Thư mục `ubuntu` này là một repository trên server `github.com`.
+Sau khi con làm bài xong thì con phải commit bài làm của con lên repository `ubuntu` trên `github.com` để ba có thể thấy được:
+
+```
+cd ~/work/ubuntu
+./pull.sh
+./commit.sh
+```
+
+
 ---
 Got it 👍 Let’s create a **lesson for Toan (14 years old)** about **permissions of users on Ubuntu**.
 The style will be **clear, simple, and teenager-friendly**, so he can read and study by himself.
