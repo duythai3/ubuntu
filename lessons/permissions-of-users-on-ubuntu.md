@@ -16,11 +16,19 @@
 - `~/work/ubuntu/tmp` chứa các file tạm con tạo ra khi thực hành.
 
 Thư mục `ubuntu` này là một repository trên server `github.com`.
-Sau khi con làm bài xong thì con phải commit bài làm của con lên repository `ubuntu` trên `github.com` để ba có thể thấy được:
+
+Trước khi con làm bài con chạy lệnh sau đây để lấy về những file ba thêm vào repo này:
 
 ```
 cd ~/work/ubuntu
 ./pull.sh
+
+```
+
+Sau khi con làm bài xong thì con phải commit bài làm của con lên repository `ubuntu` trên `github.com` để ba có thể thấy được:
+
+```
+cd ~/work/ubuntu
 ./commit.sh
 ```
 
