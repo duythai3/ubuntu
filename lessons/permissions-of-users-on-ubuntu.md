@@ -24,8 +24,8 @@ cd ~/work/ubuntu
 ./commit.sh
 ```
 
-Sau khi con `commit` xong thì gởi cho ba tên tập tin bài làm và tên tập tin con take note.
-Ba chỉ cần tên tập tin thôi vì bài làm thì trong thư mục `answers` còn notes thì trong thư mục `notes`.
+Sau khi con `commit` xong thì gởi cho ba tên tập tin bài làm và tên tập tin con ghi chú.
+Ba chỉ cần tên tập tin thôi vì bài làm thì trong thư mục `answers` còn ghi chú thì trong thư mục `notes`.
 
 ---
 Got it 👍 Let’s create a **lesson for Toan (14 years old)** about **permissions of users on Ubuntu**.
