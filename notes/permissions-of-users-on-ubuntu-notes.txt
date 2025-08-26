@@ -1,0 +1,57 @@
+Permissions of Users on Ubuntu Notes
+
+1. Why Do We Need Permissions
+
+	Each user has their own home directory and some areas are shared while others are
+	locked
+	The three permissions include: Read(look inside it), Write(Change it), and Execute
+	(run it like a program)
+
+2. The three types of permissions
+
+	Read(r) - open and read file
+	Write(w) - change the file/folder
+	Execute(x) - run file like a script or enter a folder
+
+3. The three groups of people
+
+	User(u) - The owner of the file
+	Group(g) - A group of users (like teammates)
+	Others(o) - Everyone else
+
+4. Seeing permissions
+
+	type ls -l to see permissions
+	-rwxr-xr--
+	- means its a file
+	- rwx r-x r--
+	first three character is user permission, the second is group permissions, the
+	third is others permssion.
+	r = read, w = write, x = execute
+
+5. Changing permissions
+
+	chmod command to change permissions
+	chmod u(user)+x(execute) file.txt = giving user permission to execute file.txt
+	chmod o-w file.txt = removing others' writing permission on file.txt
+	chmod a+rw file.txt =giving everybody writing and reading permission on file.txt
+
+6. Numeric Shortcut Permissions
+
+	4 = read
+	2 = write
+	1 = execute
+
+	7 = rwx
+	6 = rw-
+	5 = r-x
+	4 = r--
+
+	chmod 410 file.txt = chmod r----x--- file.txt
+
+7. Ownership
+
+	Each file has owner and group
+	check with ls -l
+	change owner with sudo chown(changeowner) newuser file.txt
+	change group with sudo chgrp(changegroup) newgroup file.txt
