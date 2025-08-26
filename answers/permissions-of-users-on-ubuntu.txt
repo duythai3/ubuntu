@@ -1,0 +1,49 @@
+Permissions of Users on Ubuntu Lesson Answers
+
+1. What permissions are ~/.bashrc. Explain them in English.
+
+a: The permission that we have on ~/.bashrc. ar '-rw-r--r--'. That means that the user can
+only read and write it while everyone else can only read.
+
+2.     Run the command below and tell me what you can do on the directory ~/work/ubuntu.
+
+ls -ld ~/work/ubuntu
+
+a: I can do all three: read, write, and execute on the directory.
+
+3. What you can do with the file ~/.bashrc?
+
+a: I can only read and write on it(-rw-r--r--), not execute.
+
+4. What I can do with the file /home/toan/.bashrc?
+
+a: You can only read it as the group. (-rw-r--r--)
+
+5. What root user can do with the file /etc/passwd?
+
+a: Currently, root can only read and write in the file. However, root can also grant
+himself permission to execute it if he wants. (-rw-r--r--) 
+
+6. What you can do with the file /etc/passwd?
+
+a: I can only read and write the file. (What you can do with the file /etc/passwd?)
+
+7. Copy ~/work/ubuntu/commit.sh to ~/work/ubuntu/tmp and allow me execute it.
+
+a: I can either use the command 'chmod 701 commit.sh' to allow you to execute it or add you
+to the 'toan' group with the command 'sudo usermod -aG toan duy' and then use the command 
+'chmod 710 commit.sh' to let group execute it.
+
+8. I need to view files in your answers and notes directories, can you help me with that?
+
+a: Since I added you to the 'toan' group earlier, you can already view the files in it.
+
+9. Prevent everybody from access your .bashrc file.
+
+a: I prevented everybody else from accessing my .bashrc file with this command: 
+'chmod 700 .bashrc'
+
+10. What is the option d of the command ls?
+
+The option d of the command ls stands for directory and it lists directories themselves,
+not their contents.
