@@ -111,5 +111,5 @@ chown new_owner filename
 
 3. What is the total size in bytes of the directory `/var/log`?
 4. What is the total size in megabytes of the directory `/etc`?
-5. Create the file `file-in-duy-group.txt` in your `tmp` directory and make it belong to `duy` group.
+5. Create the file `file-in-duy-group.txt` in the `tmp` directory and make it belong to `duy` group.
 6. Correct the name of the file `~/work/ubuntu/answers/user-in-ubuntu.txt`. You need to use the `mv` command to rename a file.
