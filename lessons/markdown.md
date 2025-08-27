@@ -171,7 +171,7 @@ Use three or more dashes `---` or asterisks `***`.
 
 1. View a markdown file.
 
-Almost lessons I created for you are in markdown syntax. Look inside the `lessons` directory to find for `*.md` files. Open some files by using `nano` to see how `markdown` syntax look like.
+  Almost lessons I created for you are in markdown syntax. Look inside the `lessons` directory to find for `*.md` files. Open some files by using `nano` to see how `markdown` syntax look like.
 Github understand `*.md` files, and it translates a `markdown` file to an `html` file that is the final format you see when you read my lesson.
 Try the following:
 
