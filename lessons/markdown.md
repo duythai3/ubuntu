@@ -105,13 +105,16 @@ For blocks of code, use triple backticks.
 
 Example:
 
-````markdown
+```
 Inline code: `echo "Hello World"`
+```
 
-```python
+```
+```
 def hello():
     print("Hello World")
-````
+```
+```
 
 
 ---
