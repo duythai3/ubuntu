@@ -110,6 +110,7 @@ Inline code: `echo "Hello World"`
 ```
 
 ````
+Code block:
 ```
 cp ~/.bashrc ~/ubuntu/tmp
 ls -lah ~/ubuntu/tmp/.bashrc
