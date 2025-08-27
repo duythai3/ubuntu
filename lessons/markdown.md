@@ -110,10 +110,10 @@ Inline code: `echo "Hello World"`
 ```
 
 ```
-```
-def hello():
-    print("Hello World")
-```
+\```
+cp ~/.bashrc ~/ubuntu/tmp
+ls -lah ~/ubuntu/tmp/.bashrc
+\```
 ```
 
 
