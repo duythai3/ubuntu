@@ -178,7 +178,7 @@ Try the following:
 
 In the `ubuntu` repo, I created two branches `main` and `student`. When you commit your works, they will be saved into the branch `student`, so you need to find your branch on github to view the file you edited.
 
-2. Create a `markdown` file in the `tmp` dirextory, and do the following:
+2. Create a `markdown` file in the `tmp` directory, and do the following:
 
 - Write your name in **bold** and your favorite food in *italic*.
 - Create a shopping list with 3 items using an unordered list.
