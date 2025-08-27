@@ -109,12 +109,12 @@ Example:
 Inline code: `echo "Hello World"`
 ```
 
+````
 ```
-\```
 cp ~/.bashrc ~/ubuntu/tmp
 ls -lah ~/ubuntu/tmp/.bashrc
-\```
 ```
+````
 
 
 ---
