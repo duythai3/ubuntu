@@ -127,7 +127,7 @@ Use `>` to quote text.
 > This is line 1 of a quote.
 > This is line 2 of a quote.
 > This is line 3 of a quote.
-````
+```
 
 Result:
 
