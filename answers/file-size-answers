@@ -1,0 +1,27 @@
+File Size Lesson Answers
+
+1. Make nano wrap long lines.
+
+a: Done
+
+2.     Copy your .nanorc file into my home directory to make my nano sessions wrap long lines also. After copying, you need to change its owner to duy to make it work with my account. Use the command below to change a file's owner:
+
+chown new_owner filename
+
+a: Done
+
+3. What is the total size in bytes of the directory /var/log?
+
+a: The total size in bytes of the directory /var/log is 33,000,000 bytes
+
+4. What is the total size in megabytes of the directory /etc?
+
+a: The total size of the /etc directory is 12 Megabytes
+
+5. Create the file file-in-duy-group.txt in the tmp directory and make it belongto duy group.
+
+a: Done
+
+6. Correct the name of the file ~/work/ubuntu/answers/user-in-ubuntu.txt. You need to use the mv command to rename a file.
+
+a: Done
