@@ -166,16 +166,20 @@ Use three or more dashes `---` or asterisks `***`.
 # Practice
 
 1. View a markdown file.
+
 Almost lessons I created for you are in markdown syntax. Look inside the `lessons` directory to find for `*.md` files. Open some files to see how `markdown` syntax look like.
 Github understand `*.md` files, and it translates a `markdown` file to an `html` file that is the final format you see when you read my lesson.
 Try the following:
+
 - Copy a `*.md` file from the `lessons` directory to the `tmp` directory.
 - Edit the file in the `tmp` directory by using `nano`.
 - Commit your branch (student) to github.
 - View your editied file on github.com.
+
 In the `ubuntu` repo, I created two branches `main` and `student`. When you commit your works, they will be saved into the branch `student`, so you need to find your branch on github to view the file you edited.
 
 2. Create a `markdown` file in the `tmp` dirextory, and do the following:
+
 - Write your name in **bold** and your favorite food in *italic*.
 - Create a shopping list with 3 items using an unordered list.
 - Write a quote from your favorite movie using blockquote style.
@@ -183,9 +187,12 @@ In the `ubuntu` repo, I created two branches `main` and `student`. When you comm
 - Make a small table with two columns: “Game” and “Rating”.
 
 3. Translate the first lesson to `markdown` format.
+
 The first lesson that I created for you is in `pdf` format, so help me translate it into `markdown` format.
+
 - View the lesson by cicking on this link:[Linux Filesystem](https://github.com/duythai3/ubuntu/blob/main/lessons/Linux%20Filesystem.pdf)
 - Create file `linux-filesystem.md` in the `lessons` directory by using `nano`. Try to make the lesson in `markdown` format look the same as in `pdf` format.
 - You don't need to take notes for this lesson today, the file `linux-filesystem.md` is enough.
+
 ---
 
