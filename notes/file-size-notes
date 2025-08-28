@@ -1,0 +1,54 @@
+File Size Notes
+
+1. Why do we care about size?
+
+Every file on your computer takes up space on the disk. Some files are small (like text files), others are big (like videos). If you know how to check file sizes, you can:
+
+    Avoid running out of disk space.
+    Find out which folders are using the most space.
+    Clean up unnecessary files.
+
+2. Checking the size of a file
+
+The simplest way is with the ls -lh command.
+
+    ls lists files.
+    The -l option shows details.
+    The -h option makes the size human readable (KB, MB, GB).
+
+👉 Example:
+
+ls -lh myfile.txt
+
+Output might look like:
+
+-rw-r--r-- 1 toan toan 1.2K Aug 26 07:00 myfile.txt
+
+Here, 1.2K means the file is about 1.2 kilobytes.
+
+Checking the size of a directory
+
+Files are easy, but what about a whole folder (directory)?
+
+We use the du command (disk usage).
+
+👉 Example:
+
+du -sh myfolder
+
+    -s = summary (just show total).
+    -h = human readable.
+
+Output might be:
+
+4.5M    myfolder
+
+This means the folder and everything inside it takes up 4.5 megabytes.
+
+6. Units you will see
+
+    B = Bytes (very small, 1 character = ~1 byte)
+    K = Kilobytes (1,000 bytes)
+    M = Megabytes (1,000 KB, about 1 million bytes)
+    G = Gigabytes (1,000 MB, about 1 billion bytes)
+    T = Terabytes (1,000 GB)
