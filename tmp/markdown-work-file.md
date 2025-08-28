@@ -11,5 +11,5 @@ __Toan__ *Pho*
 
 |Game|Rating|
 |----|------|
-|The seven seas of the pirate area thing|0
-|Game2|2
+|The seven seas of the pirate area thing|0|
+|Game2|2|
