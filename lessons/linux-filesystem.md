@@ -2,6 +2,8 @@
 
 ## 1. Welcome to the World of Linux Files
 
+
+
 Hello! Today, we’re going to explore one of the most important parts of Linux: the filesystem.
 ---
 Think of your computer as a giant library:
