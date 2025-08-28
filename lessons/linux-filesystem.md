@@ -13,9 +13,10 @@ In Linux, __everything__ is a file — not just documents and pictures, but even
 
 ---
 
-2. The Big Map — / (Root Directory)
+# __2. The Big Map — / (Root Directory)__
 In Linux, the entire filesystem starts from one main place: /
 This slash is called root. It’s like the “city center” of your computer.
+
 Here’s a simple map of the most important places:
  /
 ├── bin     → Basic programs (tools you always need)
