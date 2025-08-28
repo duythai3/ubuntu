@@ -8,3 +8,8 @@ __Toan__ *Pho*
 > It’s commonly used in README files, notes, and documentation.
 
 [Virus](https://youtube.com)
+
+|Game|Rating|
+|----|------|
+|The seven seas of the pirate area thing|0
+|Game2|2
