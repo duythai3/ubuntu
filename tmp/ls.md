@@ -1,4 +1,4 @@
-############# Learning the ls command on Ubuntu
+##### Learning the ls command on Ubuntu
 Hi Toan,\
 Today, you will learn about the ls command on Ubuntu. This command helps you see what files and folders are inside the place (called a directory) where you are working.
 ## What is ls?
