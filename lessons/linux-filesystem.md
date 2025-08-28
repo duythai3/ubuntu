@@ -2,10 +2,12 @@
 
 1. Welcome to the World of Linux Files
 Hello! Today, we’re going to explore one of the most important parts of Linux: the filesystem.
+---
 Think of your computer as a giant library:
 - Each shelf is a directory (or folder).
 - Each book is a file.
 - The filesystem is the map that tells you where every book is stored.
+
 In Linux, everything is a file — not just documents and pictures, but even your keyboard, mouse, and programs!
 
 2. The Big Map — / (Root Directory)
