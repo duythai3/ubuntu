@@ -30,7 +30,9 @@ Here’s a simple map of the most important places:
 └── proc    → Info about running programs
 ```
 💡 Remember: In Linux, directory names are case-sensitive. /Home is not the same as /home.
-3. Moving Around the Filesystem
+---
+
+# __3. Moving Around the Filesystem__
 To explore Linux, you use the Terminal.
 The Terminal is like a magic door — you type commands and it shows you results.
 Commands to move around
