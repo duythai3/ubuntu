@@ -1,15 +1,15 @@
-# Learning the Linux Filesystem
+# __Learning the Linux Filesystem__
 --
-## 1. Welcome to the World of Linux Files
+## __1. Welcome to the World of Linux Files__
 
 Hello! Today, we’re going to explore one of the most important parts of Linux: the filesystem.
 
-Think of your computer as a giant library:
-- Each shelf is a directory (or folder).
-- Each book is a file.
-- The filesystem is the map that tells you where every book is stored.
+Think of your computer as a __giant library__:
+- Each shelf is a __directory__ (or folder).
+- Each book is a __file__.
+- The __filesystem__ is the map that tells you where every book is stored.
 
-In Linux, everything is a file — not just documents and pictures, but even your keyboard, mouse, and programs!
+In Linux, __everything__ is a file — not just documents and pictures, but even your keyboard, mouse, and programs!
 
 ---
 
