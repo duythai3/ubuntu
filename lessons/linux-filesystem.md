@@ -18,6 +18,7 @@ In Linux, the entire filesystem starts from one main place: /
 This slash is called root. It’s like the “city center” of your computer.
 
 Here’s a simple map of the most important places:
+```
  /
 ├── bin     → Basic programs (tools you always need)
 ├── etc     → System settings (configuration files)
@@ -27,7 +28,7 @@ Here’s a simple map of the most important places:
 ├── usr     → Extra programs and files
 ├── dev     → Devices (keyboard, hard drive, etc.)
 └── proc    → Info about running programs
-
+```
 💡 Remember: In Linux, directory names are case-sensitive. /Home is not the same as /home.
 3. Moving Around the Filesystem
 To explore Linux, you use the Terminal.
