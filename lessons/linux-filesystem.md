@@ -12,6 +12,7 @@ Think of your computer as a giant library:
 In Linux, everything is a file — not just documents and pictures, but even your keyboard, mouse, and programs!
 
 --
+
 2. The Big Map — / (Root Directory)
 In Linux, the entire filesystem starts from one main place: /
 This slash is called root. It’s like the “city center” of your computer.
