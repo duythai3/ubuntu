@@ -34,7 +34,7 @@ Here’s a simple map of the most important places:
 ---
 
 # __3. Moving Around the Filesystem__
-To explore Linux, you use the Terminal.
+To explore Linux, you use the Terminal. <br>
 The Terminal is like a magic door — you type commands and it shows you results.
 Commands to move around
     • pwd — Show where you are (print working directory).
