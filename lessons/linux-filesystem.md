@@ -48,12 +48,12 @@ __Try it!__ <br>
 1. Open Terminal.
 2. Type:
 ```
-	pwd
-	ls /
-       	cd /home
-       	pwd
-       	cd ..
-       	pwd
+pwd
+ls /
+cd /home
+pwd
+cd ..
+pwd
 ```
 3. Look at the output — can you see where you are at each step?
 
