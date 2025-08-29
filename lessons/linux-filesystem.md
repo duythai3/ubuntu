@@ -104,19 +104,19 @@ If you’re in /home/toan, the same file can be:
 ```
 	playground/hello.txt
 ```
-Try it!
+__Try it!__
 - Draw a “map” of your home folder on paper.
 - Mark where you are.
 - Write one absolute and one relative path for the same file.
-7. Fun Treasure Hunt
+## __7. Fun Treasure Hunt__
 Your mission: Create a “treasure map” on your computer.
-    1. Go to /tmp:
-	cd /tmp
-    2. Make a folder called treasure_chest:
-	mkdir treasure_chest
-	cd treasure_chest
-    3. Make a file called map.txt with the text:
-       echo "X marks the spot!" > map.txt
+1. Go to /tmp:
+cd /tmp
+2. Make a folder called treasure_chest:
+mkdir treasure_chest
+cd treasure_chest
+3. Make a file called map.txt with the text:
+`echo "X marks the spot!" > map.txt`
     4. Read the map:
        cat map.txt
 
