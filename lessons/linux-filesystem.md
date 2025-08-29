@@ -73,35 +73,41 @@ Try it!
         cat hostname
     • Did you see your computer’s hostname?
 ```
-## __5. Creating and Removing Files & Folders__
+## __5. Creating and Removing Files & Folders__ 
 ⚠ Warning: Only create and delete files in your home folder for now.
-This keeps the system safe.
+This keeps the system safe. <br>
 Creating
-    • mkdir folder_name — Make a folder.
-    • touch file.txt — Make a blank file.
-    • echo "text" > file.txt — Make a file with text.
+- mkdir folder_name — Make a folder.
+- touch file.txt — Make a blank file.
+- echo "text" > file.txt — Make a file with text.
 Removing
-    • rm file.txt — Delete a file.
-    • rm -r folder_name — Delete a folder and its contents.
+- rm file.txt — Delete a file.
+- rm -r folder_name — Delete a folder and its contents.
 Try it!
-	cd ~
-	mkdir playground
-	cd playground
-	touch hello.txt
-	echo "I am learning Linux!" > hello.txt
-	cat hello.txt
-	rm hello.txt
-6. Understanding Paths
-A path tells Linux where something is.
-Absolute path — The full address from /:
+```
+cd ~
+mkdir playground
+cd playground
+touch hello.txt
+echo "I am learning Linux!" > hello.txt
+cat hello.txt
+rm hello.txt
+```
+## __6. Understanding Paths__
+A path tells Linux where something is.<br>
+__Absolute path — The full address from /:__
+```
 	/home/toan/playground/hello.txt
-Relative path — From where you are now:
+```
+__Relative path__ — From where you are now: <br>
 If you’re in /home/toan, the same file can be:
+```
 	playground/hello.txt
+```
 Try it!
-    • Draw a “map” of your home folder on paper.
-    • Mark where you are.
-    • Write one absolute and one relative path for the same file.
+- Draw a “map” of your home folder on paper.
+- Mark where you are.
+- Write one absolute and one relative path for the same file.
 7. Fun Treasure Hunt
 Your mission: Create a “treasure map” on your computer.
     1. Go to /tmp:
