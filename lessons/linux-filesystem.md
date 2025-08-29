@@ -66,12 +66,13 @@ Useful commands
     • file something — Tell what type of file it is.
 ```
 Try it!
+```
     • Go to /etc:
 	cd /etc
 	ls
 	cat hostname
     • Did you see your computer’s hostname?
-
+```
 5. Creating and Removing Files & Folders
 ⚠ Warning: Only create and delete files in your home folder for now.
 This keeps the system safe.
