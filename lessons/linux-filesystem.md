@@ -30,6 +30,7 @@ Here’s a simple map of the most important places:
 └── proc    → Info about running programs
 ```
 💡 Remember: In Linux, directory names are case-sensitive. /Home is not the same as /home.
+
 ---
 
 # __3. Moving Around the Filesystem__
