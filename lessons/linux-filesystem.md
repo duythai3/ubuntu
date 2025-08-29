@@ -74,9 +74,7 @@ Try it!
     • Did you see your computer’s hostname?
 ```
 ## __5. Creating and Removing Files & Folders__ 
-⚠ Warning: Only create and delete files in your home folder for now.
-
-This keeps the system safe.
+⚠ Warning: Only create and delete files in your home folder for now. This keeps the system safe.
 
 Creating
 
@@ -113,7 +111,7 @@ __Try it!__
 - Write one absolute and one relative path for the same file.
 ## __7. Fun Treasure Hunt__
 Your mission: Create a “treasure map” on your computer.
-1. Go to /tmp: <br>
+1. Go to /tmp:
 `cd /tmp`
 2. Make a folder called treasure_chest: <br>
 `mkdir treasure_chest`
