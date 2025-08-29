@@ -110,24 +110,24 @@ __Try it!__
 - Write one absolute and one relative path for the same file.
 ## __7. Fun Treasure Hunt__
 Your mission: Create a “treasure map” on your computer.
-1. Go to /tmp:
-cd /tmp
-2. Make a folder called treasure_chest:
-mkdir treasure_chest
-cd treasure_chest
-3. Make a file called map.txt with the text:
+1. Go to /tmp: <br>
+`cd /tmp`
+2. Make a folder called treasure_chest: <br>
+`mkdir treasure_chest`
+`cd treasure_chest`
+3. Make a file called map.txt with the text: <br>
 `echo "X marks the spot!" > map.txt`
-    4. Read the map:
-       cat map.txt
+4. Read the map: <br>
+`cat map.txt`
 
-8. Quick Recap
-    • Filesystem = map of where files are stored.
-    • / is the root (starting point).
-    • You move with cd, see where you are with pwd, and list with ls.
-    • You can make files/folders with touch/mkdir and remove them with rm.
-    • Paths can be absolute or relative.
-9. Challenge Yourself
-    1. Find the passwd file in /etc (it’s not a password list — it’s a list of users!).
-    2. Go to your home folder and create a directory named projects.
-    3. Inside projects, create a file named my_notes.txt with your favorite Linux command written inside.
-    4. Read your file to check if it worked.
+## __8. Quick Recap__
+- Filesystem = map of where files are stored.
+- / is the root (starting point).
+- You move with cd, see where you are with pwd, and list with ls.
+- You can make files/folders with touch/mkdir and remove them with rm.
+- Paths can be absolute or relative.
+## __9. Challenge Yourself__
+1. Find the passwd file in /etc (it’s not a password list — it’s a list of users!).
+2. Go to your home folder and create a directory named projects.
+3. Inside projects, create a file named my_notes.txt with your favorite Linux command written inside.
+4. Read your file to check if it worked.
