@@ -47,13 +47,15 @@ __Commands to move around__
 __Try it!__ <br>
 1. Open Terminal.
 2. Type:
-       	pwd
-       	ls /
+```
+	pwd
+	ls /
        	cd /home
        	pwd
        	cd ..
        	pwd
-    3. Look at the output — can you see where you are at each step?
+```
+3. Look at the output — can you see where you are at each step?
 
 4. Looking Inside Files
 Some files are text files that you can read in the Terminal.
