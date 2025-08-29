@@ -37,13 +37,13 @@ Here’s a simple map of the most important places:
 To explore Linux, you use the Terminal. <br>
 The Terminal is like a magic door — you type commands and it shows you results.<br>
 
-Commands to move around
-	- pwd — Show where you are (print working directory).
-	- ls — List files and folders in the current place.
-	- cd folder_name — Go into a folder.
-	- cd .. — Go up one level.
-	- cd /path/to/place — Go directly to a location. <br>
-Try it!
+__Commands to move around__
+- pwd — Show where you are (print working directory).
+- ls — List files and folders in the current place.
+- cd folder_name — Go into a folder.
+- cd .. — Go up one level.
+- cd /path/to/place — Go directly to a location. <br>
+__Try it!__
     1. Open Terminal.
     2. Type:
        	pwd
