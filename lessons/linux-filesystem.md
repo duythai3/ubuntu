@@ -73,7 +73,7 @@ Try it!
         cat hostname
     • Did you see your computer’s hostname?
 ```
-5. Creating and Removing Files & Folders
+## __5. Creating and Removing Files & Folders__
 ⚠ Warning: Only create and delete files in your home folder for now.
 This keeps the system safe.
 Creating
