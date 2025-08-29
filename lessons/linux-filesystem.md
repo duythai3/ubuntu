@@ -13,7 +13,7 @@ In Linux, __everything__ is a file — not just documents and pictures, but even
 
 ---
 
-# __2. The Big Map — / (Root Directory)__
+## __2. The Big Map — / (Root Directory)__
 In Linux, the entire filesystem starts from one main place: /
 This slash is called root. It’s like the “city center” of your computer.
 
@@ -33,7 +33,7 @@ Here’s a simple map of the most important places:
 
 ---
 
-# __3. Moving Around the Filesystem__
+## __3. Moving Around the Filesystem__
 To explore Linux, you use the Terminal. <br>
 The Terminal is like a magic door — you type commands and it shows you results.<br>
 
@@ -57,7 +57,7 @@ pwd
 ```
 3. Look at the output — can you see where you are at each step?
 
-4. Looking Inside Files
+## 4. Looking Inside Files
 Some files are text files that you can read in the Terminal.
 Useful commands
     • cat file.txt — Show the whole file.
