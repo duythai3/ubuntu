@@ -68,9 +68,9 @@ Useful commands
 Try it!
 ```
     • Go to /etc:
-	cd /etc
-	ls
-	cat hostname
+        cd /etc
+        ls
+        cat hostname
     • Did you see your computer’s hostname?
 ```
 5. Creating and Removing Files & Folders
