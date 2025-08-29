@@ -75,7 +75,7 @@ Try it!
 ```
 ## __5. Creating and Removing Files & Folders__ 
 ⚠ Warning: Only create and delete files in your home folder for now.
-This keeps the system safe. <br>
+This keeps the system safe.
 Creating
 - mkdir folder_name — Make a folder.
 - touch file.txt — Make a blank file.
