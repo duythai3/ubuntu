@@ -57,13 +57,14 @@ pwd
 ```
 3. Look at the output — can you see where you are at each step?
 
-## 4. Looking Inside Files
-Some files are text files that you can read in the Terminal.
+## __4. Looking Inside Files__
+Some files are text files that you can read in the Terminal.<br>
 Useful commands
+```
     • cat file.txt — Show the whole file.
     • less file.txt — Scroll through the file (press q to quit).
     • file something — Tell what type of file it is.
-
+```
 Try it!
     • Go to /etc:
 	cd /etc
