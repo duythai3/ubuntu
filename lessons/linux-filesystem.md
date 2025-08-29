@@ -44,9 +44,9 @@ __Commands to move around__
 - cd .. — Go up one level.
 - cd /path/to/place — Go directly to a location. <br>
 
-__Try it!__
-    1. Open Terminal.
-    2. Type:
+__Try it!__ <br>
+1. Open Terminal.
+2. Type:
        	pwd
        	ls /
        	cd /home
