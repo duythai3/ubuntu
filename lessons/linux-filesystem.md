@@ -43,6 +43,7 @@ __Commands to move around__
 - cd folder_name — Go into a folder.
 - cd .. — Go up one level.
 - cd /path/to/place — Go directly to a location. <br>
+
 __Try it!__
     1. Open Terminal.
     2. Type:
