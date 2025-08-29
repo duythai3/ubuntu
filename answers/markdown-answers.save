@@ -1,0 +1,37 @@
+##Markdown Lesson Answers
+
+1. View a markdown file.
+
+    Copy a *.md file from the lessons directory to the tmp directory.
+    Edit the file in the tmp directory by using nano.
+    Commit your branch (student) to github.
+    View your editied file on github.com.
+
+a: I copied the ls.md file with 'cp ls.md ../tmp' and then I edited the file with nano ls.md and finally, I committed it with '../commit.sh' then viewed it.
+
+2. Create a markdown file in the tmp directory, and do the following:
+
+	
+    Write your name in bold and your favorite food in italic.
+    Create a shopping list with 3 items using an unordered list.
+    Write a quote from your favorite movie using blockquote style.
+    Add a link to your favorite website.
+    Make a small table with two columns: “Game” and “Rating”.
+
+a: I wrote my name in bold with __ and wrote my favorite food in italic with *. I did this to achieve an unordered list:
+-
+Then I did this to make a quoteblock with br to seperate them:
+> <br>
+
+Then I did this to make my link:
+[nameoflink](link)
+
+Finally, I did this to make my table:
+|game|rating|
+|----|------|
+|thing|10|
+
+3. Translate the first lesson to markdown format.
+
+a: 
+
