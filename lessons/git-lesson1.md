@@ -1,5 +1,3 @@
----
-
 # Lesson 1: Introduction to Git
 
 ## 1. What is Git?
