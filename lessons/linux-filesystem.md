@@ -1,5 +1,7 @@
 # __Learning the Linux Filesystem__
---
+
+---
+
 ## __1. Welcome to the World of Linux Files__
 
 Hello! Today, we’re going to explore one of the most important parts of Linux: the filesystem.
