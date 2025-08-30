@@ -98,7 +98,6 @@ It’s like a **time machine + teamwork tool** for code and text.
 4. Use `git log` to see your history.
 5. Try changing something, but **don’t commit yet**. Run `git status` and see what Git says.
 6. Do you have any questions? Write your questions in the file `~/work/ubuntu/note/git-questions.md`.
-7. Take notes about this lesson. 
 
 ---
 
